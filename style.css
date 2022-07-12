@@ -1,0 +1,54 @@
+/* imported font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: 'sofiapro-light';
+  src: url('./assets/fonts/sofiapro-light-webfont.woff2') format('woff2'),
+    url('./assets/fonts/sofiapro-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* end font import */
+
+/* root variables */
+:root {
+  --pastelgreen: #67e26d;
+  --gogreen: #13aa5f;
+  --tropicalrainforest: #017260;
+  --midnightgreen: #065064;
+  --prussianblue: #003855;
+  --black: #000814;
+  --white: #ffffff;
+}
+/* end root variables */
+
+/* universal style */
+/* end universal style */
+
+/* elements style */
+body {
+  font-family: 'sofiapro-light';
+  background: rgb(103, 226, 109);
+  background: -moz-linear-gradient(
+    135deg,
+    rgba(103, 226, 109, 1) 0%,
+    rgba(0, 56, 85, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    rgba(103, 226, 109, 1) 0%,
+    rgba(0, 56, 85, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(103, 226, 109, 1) 0%,
+    rgba(0, 56, 85, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#67e26d",endColorstr="#003855",GradientType=1);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+/* end elements style */
